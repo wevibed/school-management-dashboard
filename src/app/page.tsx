@@ -1,7 +1,5 @@
-const Homepage = () => {
-  return (
-    <div className=''>Homepage</div>
-  )
-}
+import AdminPage from "./(dashboard)/admin/page";
 
-export default Homepage
+export default function Home() {
+  return <AdminPage />;
+}
